@@ -1,5 +1,5 @@
-# covid19api
-Building an API that returns the current information about the Coronavirus (Covid-19), the scrapper collects the data per country clean it and stores it to mongoDB.
+# CoronavirusScrapper
+This scrapper collects the data per country clean it and stores it to mongoDB. 
 
 # Scrapper
 Collects data from [World Meters](https://www.worldometers.info/coronavirus/) stores it in a MongoDB. Assuming a mongo db is running in your localhost.
