@@ -1,2 +1,0 @@
-03-24 18:28 urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): www.worldometers.info:443
-03-24 18:28 urllib3.connectionpool DEBUG    https://www.worldometers.info:443 "GET /coronavirus/ HTTP/1.1" 200 121185

@@ -143,4 +143,4 @@ cython_debug/
 media
 static
 
-logs/*
+logs/
