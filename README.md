@@ -14,7 +14,7 @@ Install virtual Environment:
 - pipenv shell: activates virtual environment.
 - pipenv install (if you don't have pipenv install you can install it using pip -m install pipenv)
 ```
-###Run as CLI:
+### Run as CLI:
 If you would like to use the program a CLI (Command Line Interface), you can run as:
 ```
 - run python covid.py -h (returns helper function on how to use the program)
