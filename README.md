@@ -9,9 +9,13 @@ Some assumetions:
 
 You can install the virtual enviroment using Pipenv at the top level folder. 
 
-Run code as:
+Install virtual Environment:
 ```
 - pipenv shell: activates virtual environment.
 - pipenv install (if you don't have pipenv install you can install it using pip -m install pipenv)
-- run python app.py -h (returns helper function on how to use the program)
+```
+###Run as CLI:
+If you would like to use the program a CLI (Command Line Interface), you can run as:
+```
+- run python covid.py -h (returns helper function on how to use the program)
 ```
