@@ -17,5 +17,5 @@ Install virtual Environment:
 ### Run as CLI:
 If you would like to use the program a CLI (Command Line Interface), you can run as:
 ```
-- run python covid.py -h (returns helper function on how to use the program)
+- run python covid.py -h (Will show you a quick description on how to use the program)
 ```
