@@ -5,10 +5,10 @@ import pprint
 def options():
     '''User options for arguments'''
 
-    parser = argparse.ArgumentParser(description="Returns and collects the data from World Meters website")
+    parser = argparse.ArgumentParser(description="Collects and returns Corona Virus (COVID-19) information from World Meters website")
     parser.add_argument('--all', help='prints all current data about total infectation, death, recovered, plus individual countries information', action="store_true")
-    # parser.add_argument('--filter', help='show a subset of data, looks for the argument as a substring of any of the fields')
-    # parser.add_argument('--reverse', help='reverse sort', action="store_true")
+    parser.add_argument('--countries', help='prints all individual countries information about their outbreak', action="store_true")
+    # parser.add_argument('--filter', help='filter flag to countries list.')
     
     args = parser.parse_args()
     return args
@@ -21,6 +21,8 @@ def main():
 
     if user_options.all:
         covid_data = get_data() 
+    if user_options.countries:
+        covid_data = collect_country_from_table()
 
     if len(covid_data) > 0:
         pprint.pprint(covid_data)
