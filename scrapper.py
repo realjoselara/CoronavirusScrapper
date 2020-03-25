@@ -218,7 +218,6 @@ def get_data():
     data.update(get_active_cases())
     data.update(collect_total_number_data())
     data['countries'] = collect_country_from_table()
-    # print(data['countries'])
     data['Date'] = str(datetime.today())
 
     return data
